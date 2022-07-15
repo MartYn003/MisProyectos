@@ -1,6 +1,7 @@
+
 header{
     display: flex ;
-    width: 100%;
+    width: 101.5%;
     justify-content: center;
     background-color: #e9e0d5;
     height: 200px;
@@ -55,4 +56,19 @@ body{
     height: 190px;
     border-width:3.4px;
     letter-spacing: 2px;
+}
+
+@media (max-width: 380px){
+    header{
+        width: 104.2%;
+    }
+    body{
+        margin-top: 317px;
+    }
+    .Primeros{
+        flex-direction: column;
+    }
+    .Segundos{
+        flex-direction: column;
+    }
 }
