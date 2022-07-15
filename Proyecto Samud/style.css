@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 50px; 
+    height: 500px;
+}
+.Primeros{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.boton1{
+    margin: 50px;
+}
+.boton2{
+    margin: 50px;
+}
+
+.Segundos{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.boton3{
+    margin: 50px;
+}
+.boton4{
+    margin: 50px;
+}
+
+
+.SUBboton{
+    background-color: bisque;
+    border-color: brown;
+    color: brown;
+    border-radius: 100px;
+    width: 170px;
+    height: 170px;
+}
