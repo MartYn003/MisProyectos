@@ -1,14 +1,26 @@
+header{
+    display: flex ;
+    width: 100%;
+    justify-content: center;
+    background-color: #e9e0d5;
+    height: 200px;
+    margin-top: 125px;
+}
+header img{
+    margin: 20px;
+}
+
 body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 50px; 
+    align-items: center;
     height: 500px;
 }
 .Primeros{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 75%;
 }
 .boton1{
     margin: 50px;
@@ -20,7 +32,7 @@ body{
 .Segundos{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 75%;
 }
 
 .boton3{
@@ -32,10 +44,15 @@ body{
 
 
 .SUBboton{
-    background-color: bisque;
-    border-color: brown;
-    color: brown;
-    border-radius: 100px;
-    width: 170px;
-    height: 170px;
+    background-color: rgb(233, 200, 111);
+    border-color: rgb(98, 34, 34);
+    color: rgb(98, 34, 34);
+    border-radius: 40px;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: Comic;
+    width: 190px;
+    height: 190px;
+    border-width:3.4px;
+    letter-spacing: 2px;
 }
